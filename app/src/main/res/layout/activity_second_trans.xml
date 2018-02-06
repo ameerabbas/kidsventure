@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/halftone_yellow"
+    tools:context="com.example.unais.kidsventure.secondTrans">
+
+    <ImageView
+        android:id="@+id/imvbck"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginTop="24dp"
+        app:srcCompat="@drawable/btbck" />
+
+    <ImageView
+        android:id="@+id/imvnxt"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        app:srcCompat="@drawable/btnext" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt2"
+        android:layout_alignBottom="@+id/bt2"
+        android:layout_toLeftOf="@+id/soundimg"
+        android:layout_toStartOf="@+id/soundimg"
+        android:background="@drawable/a" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imvnxt"
+        android:layout_marginBottom="23dp"
+        android:layout_toEndOf="@+id/soundimg"
+        android:layout_toRightOf="@+id/soundimg"
+        android:background="@drawable/k" />
+
+
+    <TextView
+        android:id="@+id/tvanswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imvnxt"
+        android:layout_alignRight="@+id/imvnxt"
+        android:layout_below="@+id/bt1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/soundimg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/imvbck"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        app:srcCompat="@drawable/sound_icon" />
+</RelativeLayout>

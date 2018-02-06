@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.unais.kidsventure.sixthAni"
+    android:background="@drawable/halftone_yellow">
+
+    <ImageView
+        android:id="@+id/imvbck"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="19dp"
+        app:srcCompat="@drawable/btbck"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="9dp"
+        android:layout_marginStart="9dp" />
+
+    <ImageView
+        android:id="@+id/imvnxt"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        app:srcCompat="@drawable/btnext" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imvnxt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/g" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt1"
+        android:layout_alignBottom="@+id/bt1"
+        android:layout_alignEnd="@+id/imvnxt"
+        android:layout_alignRight="@+id/imvnxt"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/b" />
+
+    <TextView
+        android:id="@+id/tvanswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bt1"
+        android:layout_alignStart="@+id/bt1"
+        android:layout_below="@+id/bt1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/soundimg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/imvbck"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/sound_icon" />
+
+</RelativeLayout>

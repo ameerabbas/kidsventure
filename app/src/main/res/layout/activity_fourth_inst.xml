@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.unais.kidsventure.fruitsimg"
+    android:background="@drawable/halftone_yellow" >
+
+    <ImageView
+        android:id="@+id/imvback"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/btbck" />
+
+    <ImageView
+        android:id="@+id/imvnext"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        app:srcCompat="@drawable/btnext" />
+
+    <TextView
+        android:id="@+id/tvanswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imvnext"
+        android:layout_alignLeft="@+id/bt1"
+        android:layout_alignStart="@+id/bt1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/soundimg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/imvback"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        app:srcCompat="@drawable/sound_icon" />
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/imbck"
+        android:layout_alignStart="@+id/imbck"
+        android:layout_alignTop="@+id/bt2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/guitar" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/tvanswer"
+        android:layout_alignEnd="@+id/imvnext"
+        android:layout_alignRight="@+id/imvnext"
+        android:layout_marginBottom="21dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:background="@drawable/drum" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bt1"
+        android:layout_alignStart="@+id/bt1"
+        android:layout_below="@+id/bt1"
+        android:text="Guitar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bt2"
+        android:layout_alignStart="@+id/bt2"
+        android:layout_below="@+id/bt1"
+        android:text="Drum"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+</RelativeLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/halftone_yellow"
+    android:layout_height="match_parent"
+    tools:context="com.example.unais.kidsventure.SelectAvatar">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorText"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Choose your character"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="59dp"
+        android:layout_below="@+id/selected_avatar"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/selected_avatar"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="136dp"
+        android:layout_marginTop="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/avatar1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/avatar1"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="136dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp" />
+
+    <ImageView
+        android:id="@+id/avatar2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/avatar2"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="136dp"
+        android:layout_alignTop="@+id/avatar5"
+        android:layout_centerHorizontal="true" />
+
+    />
+
+    <ImageView
+        android:id="@+id/avatar3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/avatar3"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="136dp"
+        android:layout_alignTop="@+id/avatar6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp" />
+    <ImageView
+        android:id="@+id/avatar4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/avatar4"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="136dp"
+        android:layout_alignTop="@+id/avatar2"
+        android:layout_alignLeft="@+id/avatar3"
+        android:layout_alignStart="@+id/avatar3" />
+    <ImageView
+        android:id="@+id/avatar5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/avatar5"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="136dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/avatar1"
+        android:layout_alignLeft="@+id/avatar1"
+        android:layout_alignStart="@+id/avatar1" />
+    <ImageView
+        android:id="@+id/avatar6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/avatar6"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="136dp"
+        android:layout_alignTop="@+id/avatar1"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:id="@+id/next"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/selected_avatar"
+        android:layout_alignStart="@+id/selected_avatar" />
+
+
+
+</RelativeLayout>

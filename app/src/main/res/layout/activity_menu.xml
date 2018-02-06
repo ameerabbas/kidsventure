@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spiration_dark_repeating"
+    tools:context="com.example.unais.kidsventure.ActivityMenu">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/MathActivity"
+        android:src="@drawable/math_activity"
+        android:layout_below="@+id/ImageActivity"
+        android:layout_alignLeft="@+id/SoundActivity"
+        android:layout_alignStart="@+id/SoundActivity"
+        android:layout_marginTop="25dp" />
+
+    <ImageView
+        android:id="@+id/ImageActivity"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/images_activity"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_below="@+id/SoundActivity"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:id="@+id/SoundActivity"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/sound_activity"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/BackBtn"
+        android:layout_alignStart="@+id/BackBtn"
+        android:layout_marginTop="55dp" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="Sound Activities"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#FFCB33"
+        android:layout_marginBottom="44dp"
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/SoundActivity"
+        android:layout_alignRight="@+id/ImageActivity"
+        android:layout_alignEnd="@+id/ImageActivity" />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:text="Picture Activities"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#FFCB33"
+        android:layout_marginBottom="33dp"
+        android:id="@+id/textView2"
+        android:layout_alignBottom="@+id/ImageActivity"
+        android:layout_alignLeft="@+id/MathActivity"
+        android:layout_alignStart="@+id/MathActivity" />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="Maths Activities"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#FFCB33"
+        android:layout_marginBottom="35dp"
+        android:layout_alignBottom="@+id/MathActivity"
+        android:layout_alignRight="@+id/ImageActivity"
+        android:layout_alignEnd="@+id/ImageActivity" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:text="Select an Activity"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:id="@+id/textView3"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_alignBottom="@+id/BackBtn"
+        android:layout_toRightOf="@+id/BackBtn"
+        android:layout_toEndOf="@+id/BackBtn" />
+    <ImageView
+        android:id="@+id/BackBtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/back_btn"
+        android:layout_marginTop="9dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" />
+
+
+
+</RelativeLayout>

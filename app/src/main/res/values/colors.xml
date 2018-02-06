@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EDE331</color>
+    <color name="colorPrimaryDark">#EB3232</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorText">#16A21C</color>
+    <color name="colorWhite">#FCFBCA</color>
+    <color name="colorRed">#f90404</color>
+    <color name="colorCorrectAns">#00CC00</color>
+    <color name="colorWrongAns">#EB3232</color>
+    <color name="colorActivityMenuBG">#48ea58</color>
+</resources>

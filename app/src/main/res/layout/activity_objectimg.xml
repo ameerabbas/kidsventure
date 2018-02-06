@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/halftone_yellow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_objectimg"
+    tools:context="com.example.unais.kidsventure.objectimg">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:src="@drawable/objects_tag"
+        android:id="@+id/imageView3"
+        android:layout_alignTop="@+id/close_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/close"
+        android:id="@+id/close_button"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/option2"
+        android:layout_alignEnd="@+id/option2" />
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:id="@+id/imgRandom"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/option1"
+        android:layout_below="@+id/imgRandom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:id="@+id/option2"
+        android:layout_above="@+id/option3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp" />
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:id="@+id/option3"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/option1"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
